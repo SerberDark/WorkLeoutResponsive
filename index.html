@@ -3,6 +3,7 @@
 	<meta charset="utf-8" >
 	<title>Lesson8</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/slicknav.css">
 	<link media="all" rel="stylesheet" href="css/style.css" type="text/css" >
 </head>
 <body>
@@ -11,7 +12,7 @@
 			<div class="logo">
 				<a href="#">PSD Websites</a>
 			</div>
-			<ul class="header_nav" id="menu">
+			<ul class="header_nav">
 				<li><a href="#">UI KITS</a></li>
 				<li><a href="#">PREMIUM PSD FILES</a></li>
 				<li><a href="#">ABOUT</a></li>
@@ -33,7 +34,7 @@
 		</div>
 		<div class="img_gallery">
 			<div class="container">
-				<div class="img_row">
+				<div class="img_row bg_block">
 					<div class="img_block w70">
 						<picture>
 							<source srcset="img/img-640px/site-img-1-640.jpg" media="(max-width: 767px)">	
@@ -74,7 +75,7 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
 						<p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
 					</div>
-					<div class="colmn_p right_p">
+					<div class="colmn_p">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula ipsum non leo tristique eget facilisis lacus commodo. Curabitur vitae justo lorem, non ornare nibh. Pellentesque pretium, tellus ac ultrices faucibus, nibh mauris dapibus lorem, vitae viverra nisl elit sit amet libero. Nam eu blandit risus.</p>
 						<p>Phasellus imperdiet mattis nulla. Integer gravida imperdiet congue. Proin vitae pretium augue. Donec est sem, mattis et blandit ac, blandit at arcu. Donec tempus tincidunt suscipit. Suspendisse eu vulputate lacus.</p>
 					</div>					
@@ -85,13 +86,9 @@
 	<div class="footer">
 		
 	</div>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- jQvery1 -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
 	<script src="js/init.js"></script>
-	<script>
-		$(function(){
-			$('#menu').slicknav();
-		});
-	</script>
 </body>
 </html>

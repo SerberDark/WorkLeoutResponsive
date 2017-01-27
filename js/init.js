@@ -1,5 +1,8 @@
 ;(function($){
 	//init header_nav
-	$('#menu').slicknav();
+	$('.header_nav').slicknav({
+      label: '',
+      prependTo: '.header .container',
+    });
 })(jQuery);
 
